@@ -78,6 +78,8 @@ Template.afFileUpload.helpers
 Template.afFileUpload.events
   'click .js-af-select-file': (e, t) ->
     t.$('.js-file').click()
+    e.stopPropagation()
+    e.preventDefault()
 
   'change .js-file': (e, t) ->
     t._insert e.target.files[0]
