@@ -1,9 +1,9 @@
 Package.describe({
-  name: "yogiben:autoform-file",
+  name: "liquidautumn:autoform-file",
   summary: "File upload for AutoForm",
   description: "File upload for AutoForm",
   version: "0.3.0",
-  git: "http://github.com/yogiben/autoform-file.git"
+  git: "http://github.com/liquidautumn/autoform-file.git"
 });
 
 Package.onUse(function(api) {
