@@ -18,7 +18,7 @@ Package.onUse(function(api) {
     'less@1.0.0 || 2.5.0',
     'aldeed:autoform@5.5.1',
     'fortawesome:fontawesome@4.4.0',
-    'cfs:ui'
+    'cfs:ui@0.1.3'
   ]);
 
   api.addFiles('lib/client/autoform-file.html', 'client');
